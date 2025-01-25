@@ -1,13 +1,13 @@
 # VulnHub
 VulnHub Walkthroughs
 
-* [🏛 DC](https://github.com/luisegarduno/VulnHub/blob/main/dc.md)
-* [🟢 NullByte](https://github.com/luisegarduno/VulnHub/blob/main/nullbyte.md)
-* [📷 Photographer](https://github.com/luisegarduno/VulnHub/blob/main/photographer.md)
-* [🥔 Potato](https://github.com/luisegarduno/VulnHub/blob/main/potato.md)
-* [🥔 Sar](https://github.com/luisegarduno/VulnHub/blob/main/sar.md)
-* [👦 TommyBoy](https://github.com/luisegarduno/VulnHub/blob/main/tommyboy.md)
-* [🔝 Toppo](https://github.com/luisegarduno/VulnHub/blob/main/toppo.md)
-* [🐈‍⬛ Wakanda](https://github.com/luisegarduno/VulnHub/blob/main/wakanda.md)
-* [❄ Wintermute - Straylight](https://github.com/luisegarduno/VulnHub/blob/main/straylight.md)
-* [👁️‍🗨️ 007 Golden Eye](https://github.com/luisegarduno/VulnHub/blob/main/goldeneye.md)
+* [🏛 DC](https://luisegarduno.github.io/VulnHub/dc)
+* [🟢 NullByte](https://luisegarduno.github.io/VulnHub/nullbyte)
+* [📷 Photographer](https://luisegarduno.github.io/VulnHub/photographer)
+* [🥔 Potato](https://luisegarduno.github.io/VulnHub/potato)
+* [🥔 Sar](https://luisegarduno.github.io/VulnHub/sar)
+* [👦 TommyBoy](https://luisegarduno.github.io/VulnHub/tommyboy)
+* [🔝 Toppo](https://luisegarduno.github.io/VulnHub/toppo)
+* [🐈‍⬛ Wakanda](https://luisegarduno.github.io/VulnHub/wakanda)
+* [❄ Wintermute - Straylight](https://luisegarduno.github.io/VulnHub/straylight)
+* [👁️‍🗨️ 007 Golden Eye](https://luisegarduno.github.io/VulnHub/goldeneye)
