@@ -14,7 +14,7 @@ Running `nmap -p0-65535 <ipaddr>` tells us *ssh & http* are open.
 5. Next find a list of all programs the logged in user has permissions to:
      * `find / -perm -u=s -type f 2>/dev/null`
 
-6. Within the output we see that *mawk* is available, which we will then use to spawn in sh shell:
+6. Within the output we see that *mawk* is available, which we will then use to spawn in sh shell (see [GTFOBins](https://gtfobins.github.io/gtfobins/mawk/#sudo)):
      * `mawk 'BEGIN {system("/bin/sh")}'`
 
 7. Once it has spawned, find & print the flag:
