@@ -1,5 +1,10 @@
 # VulnHub
-VulnHub Walkthroughs
+
+This repository contains walkthroughs for several beginner to intermediate level VulnHub challenges. 
+
+![TotalViewsBadge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fluisegarduno%2FVulnHub&label=Total-Views&icon=github&color=%230969da)
+
+### VulnHub Walkthroughs
 
 * [🏛 DC](https://luisegarduno.github.io/VulnHub/dc)
 * [🟢 NullByte](https://luisegarduno.github.io/VulnHub/nullbyte)
