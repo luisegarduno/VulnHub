@@ -25,17 +25,7 @@
 - Level 20 → Level 21: EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 - Level 21 → Level 22: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
 - Level 22 → Level 23: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
-- Level 23 → Level 24: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
-- Level 24 → Level 25: 
-- Level 25 → Level 26: 
-- Level 26 → Level 27: 
-- Level 27 → Level 28: 
-- Level 28 → Level 29: 
-- Level 29 → Level 30: 
-- Level 30 → Level 31: 
-- Level 31 → Level 32: 
-- Level 32 → Level 33: 
-- Level 33 → Level 34: 
+- Level 23 → Level 24: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8 
 
 ---------------------------
 
@@ -46,42 +36,51 @@ Level 0: Start Here
 
 ls -halt
 
-- h lists file sizes in human readable format (KB, MB) when combined with -hl
-- a lists all files + directories including the hidden files in the current folder or directory
-- t sorts files & directories by modification time (newest at the top) 
+- `h`: lists file sizes in human readable format (KB, MB) when combined with -hl
+- `a`: lists all files + directories including the hidden files in the current folder or directory
+- `t`: sorts files & directories by modification time (newest at the top) 
 
-cd    	  (take us home) <- show example of gui
-cd folder (go to folder
-cd . 	  (go to current folder)
-cd ..     (go "back" up one directory level)
-cd /      (go to highest path)
-cd ./     (go to current folder)
+*cd* Examples:
+| Command | Description |
+| ------- | ----------- |
+| `cd` | (take us home) <- show example using gui |
+| `cd foldername` | go to folder |
+| `cd .`  | go to current folder |
+| `cd ..` | go "back" up one directory level |
+| `cd /`  | go to highest path |
+| `cd ./` | go to current folder |
 
-
-ls / (mention that its important)
-ls ..
-ls ./ (mention that its also important)
-ls .
-ls folder/
-
+*ls* Examples:
+| Command | Description |
+| ------- | ----------- |
+| `ls /`  | list files & directories in highest path mention (important example) |
+| `ls ..` | list files & directories in directory one level up |
+| `ls ./` | list files & directories in current directory (important example) |
+| `ls .`  | list files & directories in current directory |
+| `ls foldername/` | list files & directories in a folder located within current directory |
            
 **Level 0 → Level 1**: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 - bring up tab to autocomplete
 - mention pasting passwords (linux ctrl+shift+v, windows ctrl+v or right click)
 
+## Level 1
 **Level 1 → Level 2**: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 - pwd: helps with different between ./ (current folder) and "/" (full path) 
 
+## Level 2
 **Level 2 → Level 3**: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
+## Level 3
 **Level 3 → Level 4**: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
+## Level 4
 **Level 4 → Level 5**: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 * SOLUTION:
 ```bash
 file ./*
 ```
 
+## Level 5
 **Level 5 → Level 6**: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 - human-readable makes it tricky, leave out for now
 - when using the find command, the second argument is always the directory location where you'll be searching
@@ -98,6 +97,7 @@ file ./*
 find inhere/ -size 1033c -not -executable
 ```
 
+## Level 6
 **Level 6 → Level 7**: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 USE LS to check if data.txt exists
 
@@ -107,6 +107,7 @@ USE LS to check if data.txt exists
 find / -size 33c -user bandit7 -group bandit6
 ```
 
+## Level 7
 **Level 7 → Level 8**: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 - grep --help (SEE EXAMPLE LINE 3)
 * SOLUTION:
@@ -114,6 +115,7 @@ find / -size 33c -user bandit7 -group bandit6
 grep "millionth" data.txt
 ```
 
+## Level 8
 **Level 8 → Level 9**: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 USE LS to check if data.txt exists
 
@@ -131,6 +133,7 @@ strings data.txt | sort | uniq -u
 - mention the important of ordering
 - we can verify by using "grep xxxxxx data.txt"
 
+## Level 9
 **Level 9 → Level 10**: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
 USE LS to check if data.txt exists
@@ -144,6 +147,7 @@ USE LS to check if data.txt exists
 strings data.txt | sort | grep "===="
 ```
 
+## Level 10
 **Level 10 → Level 11**: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 
 USE LS to check if data.txt exists
@@ -151,7 +155,8 @@ USE LS to check if data.txt exists
 - Instructions mention data.txt is ENCODED in base64
 - We verify this by running 'cat data.txt'
 - see if base64 --help mentions anything about decoding
-* SOLUTION:
+
+*SOLUTION*:
 ```bash
 cat data.txt | base64 -d
 ```
